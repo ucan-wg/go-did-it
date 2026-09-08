@@ -11,8 +11,8 @@ import (
 	"github.com/ucan-wg/go-varsig"
 	"golang.org/x/crypto/cryptobyte"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/internal"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/internal"
 )
 
 var _ crypto.PublicKeySigningBytes = PublicKey{}

@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/x25519"
-	methods "github.com/MetaMask/go-did-it/verifiers/methods"
-	x25519vm "github.com/MetaMask/go-did-it/verifiers/methods/x25519"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/x25519"
+	methods "github.com/ucan-wg/go-did-it/verifiers/methods"
+	x25519vm "github.com/ucan-wg/go-did-it/verifiers/methods/x25519"
 )
 
 const key2019Json = `{

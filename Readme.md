@@ -2,19 +2,19 @@
   <h1 align="center">go-did-it</h1>
 
   <p>
-    <a href="https://github.com/MetaMask/go-did-it/tags">
+    <a href="https://github.com/ucan-wg/go-did-it/tags">
         <img alt="GitHub Tag" src="https://img.shields.io/github/v/tag/MetaMask/go-did-it">
     </a>
-    <a href="https://github.com/MetaMask/go-did-it/actions?query=">
-      <img src="https://github.com/MetaMask/go-did-it/actions/workflows/gotest.yml/badge.svg" alt="Build Status">
+    <a href="https://github.com/ucan-wg/go-did-it/actions?query=">
+      <img src="https://github.com/ucan-wg/go-did-it/actions/workflows/gotest.yml/badge.svg" alt="Build Status">
     </a>
     <a href="https://MetaMask.github.io/go-did-it/dev/bench/">
         <img alt="Go benchmarks" src="https://img.shields.io/badge/Benchmarks-go-blue">
     </a>
-    <a href="https://github.com/MetaMask/go-did-it/blob/v1/LICENSE.md">
+    <a href="https://github.com/ucan-wg/go-did-it/blob/v1/LICENSE.md">
         <img alt="Apache 2.0 + MIT License" src="https://img.shields.io/badge/License-Apache--2.0+MIT-green">
     </a>
-    <a href="https://pkg.go.dev/github.com/MetaMask/go-did-it">
+    <a href="https://pkg.go.dev/github.com/ucan-wg/go-did-it">
       <img src="https://img.shields.io/badge/Docs-godoc-blue" alt="Docs">
     </a>
   </p>
@@ -27,8 +27,6 @@ This is an implementation of Decentralized Identifiers (DIDs) in go. It differs 
 - **support producing and using DIDs**: unlike some others, this all-in-one implementation is meant to create, manipulate and handle DIDs
 - **extensible**: you can easily register your custom DID method
 
-Built with ❤️ by [Consensys](https://consensys.io/).
-
 ## Concepts
 
 ![`go-did-it` concepts](.github/concepts.png)
@@ -36,7 +34,7 @@ Built with ❤️ by [Consensys](https://consensys.io/).
 ## Installation
 
 ```bash
-go get github.com/MetaMask/go-did-it
+go get github.com/ucan-wg/go-did-it
 ```
 
 ## Usage
@@ -52,12 +50,12 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/MetaMask/go-did-it"
+	"github.com/ucan-wg/go-did-it"
 
 	// 0) Register the key algorithms you accept (here: all of them),
 	//    and import the DID methods you want to support
-	_ "github.com/MetaMask/go-did-it/crypto/all"
-	_ "github.com/MetaMask/go-did-it/verifiers/did-key"
+	_ "github.com/ucan-wg/go-did-it/crypto/all"
+	_ "github.com/ucan-wg/go-did-it/verifiers/did-key"
 )
 
 func main() {
@@ -92,13 +90,13 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/MetaMask/go-did-it"
-	"github.com/MetaMask/go-did-it/crypto/x25519"
+	"github.com/ucan-wg/go-did-it"
+	"github.com/ucan-wg/go-did-it/crypto/x25519"
 
 	// 0) Register the key algorithms you accept (here: all of them),
 	//    and import the DID methods you want to support
-	_ "github.com/MetaMask/go-did-it/crypto/all"
-	_ "github.com/MetaMask/go-did-it/verifiers/did-key"
+	_ "github.com/ucan-wg/go-did-it/crypto/all"
+	_ "github.com/ucan-wg/go-did-it/verifiers/did-key"
 )
 
 func main() {
@@ -127,7 +125,7 @@ Decoding keys is gated by a `crypto.KeyPolicy`: the set of key algorithms (and, 
 
 ```go
 // accept everything (tests, kitchen-sink tools)
-import _ "github.com/MetaMask/go-did-it/crypto/all"
+import _ "github.com/ucan-wg/go-did-it/crypto/all"
 
 // or register only what you accept in the default policy
 crypto.Register(ed25519.KeyType(), p256.KeyType())

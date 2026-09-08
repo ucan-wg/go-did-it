@@ -8,13 +8,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/MetaMask/go-did-it"
-	"github.com/MetaMask/go-did-it/crypto"
-	_ "github.com/MetaMask/go-did-it/crypto/all"
-	"github.com/MetaMask/go-did-it/crypto/ed25519"
-	"github.com/MetaMask/go-did-it/crypto/p256"
-	"github.com/MetaMask/go-did-it/crypto/x25519"
-	didkey "github.com/MetaMask/go-did-it/verifiers/did-key"
+	"github.com/ucan-wg/go-did-it"
+	"github.com/ucan-wg/go-did-it/crypto"
+	_ "github.com/ucan-wg/go-did-it/crypto/all"
+	"github.com/ucan-wg/go-did-it/crypto/ed25519"
+	"github.com/ucan-wg/go-did-it/crypto/p256"
+	"github.com/ucan-wg/go-did-it/crypto/x25519"
+	didkey "github.com/ucan-wg/go-did-it/verifiers/did-key"
 )
 
 func ExampleGenerateKeyPair() {

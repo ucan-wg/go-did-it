@@ -3,7 +3,7 @@ package did
 import (
 	"fmt"
 
-	"github.com/MetaMask/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto"
 )
 
 // TryAllVerifyBytes tries to verify the signature as bytes with all the methods in the slice.

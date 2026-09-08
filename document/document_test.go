@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	_ "github.com/MetaMask/go-did-it/crypto/all"
-	"github.com/MetaMask/go-did-it/verifiers/methods/ed25519"
-	"github.com/MetaMask/go-did-it/verifiers/methods/jsonwebkey"
-	"github.com/MetaMask/go-did-it/verifiers/methods/x25519"
-	_ "github.com/MetaMask/go-did-it/verifiers/did-key"
+	_ "github.com/ucan-wg/go-did-it/crypto/all"
+	_ "github.com/ucan-wg/go-did-it/verifiers/did-key"
+	"github.com/ucan-wg/go-did-it/verifiers/methods/ed25519"
+	"github.com/ucan-wg/go-did-it/verifiers/methods/jsonwebkey"
+	"github.com/ucan-wg/go-did-it/verifiers/methods/x25519"
 )
 
 func TestRoundTrip(t *testing.T) {

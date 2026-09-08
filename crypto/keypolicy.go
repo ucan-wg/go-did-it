@@ -7,7 +7,7 @@ import (
 	"slices"
 	"sync"
 
-	helpers "github.com/MetaMask/go-did-it/crypto/internal"
+	helpers "github.com/ucan-wg/go-did-it/crypto/internal"
 )
 
 // ErrKeyNotAccepted reports a policy rejection: the key is well-formed, but its algorithm (or its

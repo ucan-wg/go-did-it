@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/ed25519"
-	"github.com/MetaMask/go-did-it/crypto/p256"
-	"github.com/MetaMask/go-did-it/crypto/p384"
-	"github.com/MetaMask/go-did-it/crypto/rsa"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/ed25519"
+	"github.com/ucan-wg/go-did-it/crypto/p256"
+	"github.com/ucan-wg/go-did-it/crypto/p384"
+	"github.com/ucan-wg/go-did-it/crypto/rsa"
 )
 
 func TestKeyPolicy_RestrictsByType(t *testing.T) {

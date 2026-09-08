@@ -12,7 +12,7 @@ import (
 
 	"github.com/ucan-wg/go-varsig"
 
-	"github.com/MetaMask/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto"
 )
 
 var _ crypto.PrivateKeySigningASN1 = &PrivateKey{}

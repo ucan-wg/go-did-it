@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/MetaMask/go-did-it"
-	"github.com/MetaMask/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it"
+	"github.com/ucan-wg/go-did-it/crypto"
 )
 
 // ErrDirectUnmarshal is returned by the UnmarshalJSON method of every verification method type.

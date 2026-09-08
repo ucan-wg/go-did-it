@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/ed25519"
-	methods "github.com/MetaMask/go-did-it/verifiers/methods"
-	"github.com/MetaMask/go-did-it/verifiers/methods/multikey"
-	_ "github.com/MetaMask/go-did-it/verifiers/did-key"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/ed25519"
+	_ "github.com/ucan-wg/go-did-it/verifiers/did-key"
+	methods "github.com/ucan-wg/go-did-it/verifiers/methods"
+	"github.com/ucan-wg/go-did-it/verifiers/methods/multikey"
 )
 
 const multikeyJson = `{

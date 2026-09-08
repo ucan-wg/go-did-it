@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/MetaMask/go-did-it"
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/ed25519"
-	"github.com/MetaMask/go-did-it/crypto/secp256k1"
+	"github.com/ucan-wg/go-did-it"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/ed25519"
+	"github.com/ucan-wg/go-did-it/crypto/secp256k1"
 )
 
 func TestWithKeyPolicy(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"encoding/pem"
 	"fmt"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/ed25519"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/ed25519"
 )
 
 var _ crypto.PrivateKeyKeyExchange = &PrivateKey{}

@@ -11,8 +11,8 @@ import (
 	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"
 	"github.com/ucan-wg/go-varsig"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	helpers "github.com/MetaMask/go-did-it/crypto/internal"
+	"github.com/ucan-wg/go-did-it/crypto"
+	helpers "github.com/ucan-wg/go-did-it/crypto/internal"
 )
 
 var _ crypto.PublicKeySigningBytes = &PublicKey{}

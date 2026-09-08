@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/MetaMask/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto"
 )
 
 type ResolutionOpts struct {

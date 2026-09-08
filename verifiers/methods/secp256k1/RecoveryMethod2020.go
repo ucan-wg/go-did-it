@@ -8,11 +8,11 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/MetaMask/go-did-it"
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/jwk"
-	"github.com/MetaMask/go-did-it/crypto/secp256k1"
-	methods "github.com/MetaMask/go-did-it/verifiers/methods"
+	"github.com/ucan-wg/go-did-it"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/jwk"
+	"github.com/ucan-wg/go-did-it/crypto/secp256k1"
+	methods "github.com/ucan-wg/go-did-it/verifiers/methods"
 )
 
 // Specification: https://identity.foundation/EcdsaSecp256k1RecoverySignature2020/

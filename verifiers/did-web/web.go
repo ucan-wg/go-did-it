@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/MetaMask/go-did-it"
-	"github.com/MetaMask/go-did-it/document"
+	"github.com/ucan-wg/go-did-it"
+	"github.com/ucan-wg/go-did-it/document"
 )
 
 // Specification: https://w3c-ccg.github.io/did-method-web/

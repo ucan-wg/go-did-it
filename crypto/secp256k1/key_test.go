@@ -10,9 +10,9 @@ import (
 	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/_testsuite"
-	"github.com/MetaMask/go-did-it/crypto/secp256k1/testvectors"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/_testsuite"
+	"github.com/ucan-wg/go-did-it/crypto/secp256k1/testvectors"
 )
 
 var harness = testsuite.TestHarness[*PublicKey, *PrivateKey]{

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/MetaMask/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto"
 )
 
 const (

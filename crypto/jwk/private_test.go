@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/MetaMask/go-did-it/crypto/p256"
-	"github.com/MetaMask/go-did-it/crypto/p384"
-	"github.com/MetaMask/go-did-it/crypto/p521"
+	"github.com/ucan-wg/go-did-it/crypto/p256"
+	"github.com/ucan-wg/go-did-it/crypto/p384"
+	"github.com/ucan-wg/go-did-it/crypto/p521"
 )
 
 // Origin: https://github.com/w3c-ccg/did-key-spec/tree/main/test-vectors

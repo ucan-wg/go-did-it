@@ -7,8 +7,8 @@ import (
 
 	"github.com/ucan-wg/go-varsig"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/p256"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/p256"
 )
 
 func Example() {

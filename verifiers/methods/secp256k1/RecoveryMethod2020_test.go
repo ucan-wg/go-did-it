@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/ed25519"
-	secp256k1crypto "github.com/MetaMask/go-did-it/crypto/secp256k1"
-	"github.com/MetaMask/go-did-it/didtest"
-	methods "github.com/MetaMask/go-did-it/verifiers/methods"
-	secp256k1vm "github.com/MetaMask/go-did-it/verifiers/methods/secp256k1"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/ed25519"
+	secp256k1crypto "github.com/ucan-wg/go-did-it/crypto/secp256k1"
+	"github.com/ucan-wg/go-did-it/didtest"
+	methods "github.com/ucan-wg/go-did-it/verifiers/methods"
+	secp256k1vm "github.com/ucan-wg/go-did-it/verifiers/methods/secp256k1"
 )
 
 // Test key material from:

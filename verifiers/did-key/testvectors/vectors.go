@@ -8,15 +8,15 @@ import (
 
 	"github.com/mr-tron/base58"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/ed25519"
-	"github.com/MetaMask/go-did-it/crypto/jwk"
-	"github.com/MetaMask/go-did-it/crypto/p256"
-	"github.com/MetaMask/go-did-it/crypto/secp256k1"
-	"github.com/MetaMask/go-did-it/verifiers/methods/ed25519"
-	"github.com/MetaMask/go-did-it/verifiers/methods/jsonwebkey"
-	"github.com/MetaMask/go-did-it/verifiers/methods/p256"
-	"github.com/MetaMask/go-did-it/verifiers/methods/secp256k1"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/ed25519"
+	"github.com/ucan-wg/go-did-it/crypto/jwk"
+	"github.com/ucan-wg/go-did-it/crypto/p256"
+	"github.com/ucan-wg/go-did-it/crypto/secp256k1"
+	"github.com/ucan-wg/go-did-it/verifiers/methods/ed25519"
+	"github.com/ucan-wg/go-did-it/verifiers/methods/jsonwebkey"
+	"github.com/ucan-wg/go-did-it/verifiers/methods/p256"
+	"github.com/ucan-wg/go-did-it/verifiers/methods/secp256k1"
 )
 
 // Origin: https://github.com/w3c-ccg/did-key-spec/tree/main/test-vectors

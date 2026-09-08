@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/MetaMask/go-did-it"
-	"github.com/MetaMask/go-did-it/crypto"
-	methods "github.com/MetaMask/go-did-it/verifiers/methods"
+	"github.com/ucan-wg/go-did-it"
+	"github.com/ucan-wg/go-did-it/crypto"
+	methods "github.com/ucan-wg/go-did-it/verifiers/methods"
 )
 
 // Specification: https://www.w3.org/TR/cid-1.0/#Multikey

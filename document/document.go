@@ -7,9 +7,9 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/MetaMask/go-did-it"
-	"github.com/MetaMask/go-did-it/crypto"
-	verifications "github.com/MetaMask/go-did-it/verifiers/methods"
+	"github.com/ucan-wg/go-did-it"
+	"github.com/ucan-wg/go-did-it/crypto"
+	verifications "github.com/ucan-wg/go-did-it/verifiers/methods"
 )
 
 var _ did.Document = &Document{}

@@ -1,4 +1,4 @@
-module github.com/MetaMask/go-did-it
+module github.com/ucan-wg/go-did-it
 
 go 1.25.0
 

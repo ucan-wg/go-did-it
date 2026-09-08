@@ -8,7 +8,7 @@ import (
 	"github.com/ucan-wg/go-varsig"
 	"golang.org/x/crypto/sha3"
 
-	helpers "github.com/MetaMask/go-did-it/crypto/internal"
+	helpers "github.com/ucan-wg/go-did-it/crypto/internal"
 )
 
 // As the standard crypto library prohibits from registering additional hash algorithm (like keccak),

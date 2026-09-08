@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/MetaMask/go-did-it/crypto"
-	"github.com/MetaMask/go-did-it/crypto/_testsuite"
-	helpers "github.com/MetaMask/go-did-it/crypto/internal"
+	"github.com/ucan-wg/go-did-it/crypto"
+	"github.com/ucan-wg/go-did-it/crypto/_testsuite"
+	helpers "github.com/ucan-wg/go-did-it/crypto/internal"
 )
 
 var harness2048 = testsuite.TestHarness[*PublicKey, *PrivateKey]{
