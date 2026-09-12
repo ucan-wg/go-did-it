@@ -19,6 +19,7 @@ var _ crypto.PrivateKeySigningASN1 = &PrivateKey{}
 var _ crypto.PrivateKeyKeyExchange = &PrivateKey{}
 var _ crypto.PrivateKeyPKCS8 = &PrivateKey{}
 var _ crypto.PrivateKeyVarsig = &PrivateKey{}
+var _ crypto.PrivateKeySigningBytesVarsig = &PrivateKey{}
 
 type PrivateKey struct {
 	k *secp256k1.PrivateKey
