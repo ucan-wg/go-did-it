@@ -61,3 +61,15 @@ type PrivateKeyKeyExchange interface {
 	// KeyExchange computes the shared key using the given PublicKey.
 	KeyExchange(remote PublicKey) ([]byte, error)
 }
+
+// Variants
+
+// PrivateKeySigningBytesVarsig is a PrivateKey that can both sign in the "raw bytes" format
+// and describe the parameters it used as a varsig.
+//
+// Protocols embedding a varsig alongside the signature need both capabilities on the same key:
+// the varsig has to be computed before signing, as it is part of the signed bytes.
+type PrivateKeySigningBytesVarsig interface {
+	PrivateKeySigningBytes
+	PrivateKeyVarsig
+}

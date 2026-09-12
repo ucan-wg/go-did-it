@@ -39,10 +39,10 @@ const (
 	PersonaFrank
 )
 
-var privKeys map[Persona]crypto.PrivateKeySigningBytes
+var privKeys map[Persona]crypto.PrivateKeySigningBytesVarsig
 
 func init() {
-	privKeys = make(map[Persona]crypto.PrivateKeySigningBytes, 6)
+	privKeys = make(map[Persona]crypto.PrivateKeySigningBytesVarsig, 6)
 	for persona, pB64 := range privKeyB64() {
 		privBytes, err := base64.StdEncoding.DecodeString(pB64)
 		if err != nil {
@@ -81,7 +81,7 @@ func (p Persona) Name() string {
 }
 
 // PrivKey returns the Ed25519 private key for the Persona.
-func (p Persona) PrivKey() crypto.PrivateKeySigningBytes {
+func (p Persona) PrivKey() crypto.PrivateKeySigningBytesVarsig {
 	res, ok := privKeys[p]
 	if !ok {
 		panic(fmt.Sprintf("Unknown persona: %v", p))
