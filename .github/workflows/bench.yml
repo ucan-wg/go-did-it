@@ -2,7 +2,7 @@ name: go continuous benchmark
 on:
   push:
     branches:
-      - main
+      - master
 
 permissions:
   contents: write
@@ -18,7 +18,9 @@ jobs:
         with:
           go-version: "stable"
       - name: Run benchmark
-        run: go test -v ./... -bench=. -run=xxx -benchmem | tee output.txt
+        run: |
+          set -o pipefail
+          go test -v ./... -bench=. -run=xxx -benchmem | tee output.txt
 
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1

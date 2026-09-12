@@ -3,12 +3,12 @@
 
   <p>
     <a href="https://github.com/ucan-wg/go-did-it/tags">
-        <img alt="GitHub Tag" src="https://img.shields.io/github/v/tag/MetaMask/go-did-it">
+        <img alt="GitHub Tag" src="https://img.shields.io/github/v/tag/ucan-wg/go-did-it">
     </a>
     <a href="https://github.com/ucan-wg/go-did-it/actions?query=">
       <img src="https://github.com/ucan-wg/go-did-it/actions/workflows/gotest.yml/badge.svg" alt="Build Status">
     </a>
-    <a href="https://MetaMask.github.io/go-did-it/dev/bench/">
+    <a href="https://ucan-wg.github.io/go-did-it/dev/bench/">
         <img alt="Go benchmarks" src="https://img.shields.io/badge/Benchmarks-go-blue">
     </a>
     <a href="https://github.com/ucan-wg/go-did-it/blob/v1/LICENSE.md">
